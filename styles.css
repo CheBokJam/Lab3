@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+    width: 35%; 
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input, .submit-registration {
+    border-radius: 5px;
+    border: 1px solid black;
+    background: rgb(243, 243, 243);
+}
+
+.submit-registration, .submit-autorisation {
+    padding-left: 25px;
+    padding-right: 25px;
+}

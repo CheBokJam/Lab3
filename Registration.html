@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Регистрация</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="Registration.html">
+            <div>
+                <h2>Регистрация</h2><hr>
+                <p>Пожалуйста, заполните данные для регистрации</p>
+                
+                <div>
+                    <label for="firstname"><b>Имя:</b></label><br>
+                    <input type="text" name="firstname" placeholder="Введите ваше имя" required>
+                </div><br>
+
+                <div>
+                    <label for="lastname"><b>Фамилия:</b></label><br>
+                    <input type="text" name="lastname" placeholder="Введите вашу фамилию" required>
+                </div><br>
+
+                <div>
+                    <label for="username"><b>Логин:</b></label><br>
+                    <input type="text" name="username" placeholder="Введите ваш логин" required>
+                </div><br>
+
+                <div>
+                    <label for="password"><b>Пароль:</b></label><br>
+                    <input type="password" name="password" placeholder="Введите пароль" required>
+                </div><br>
+
+                <div>
+                    <label for="rp-password"><b>Повторите пароль:</b></label><br>
+                    <input type="password" name="rp-password" placeholder="Введите пароль повторно" required>
+                </div><br>
+
+                <input type="checkbox" name="check-personal_data" required>Устанавливая флажок, вы соглашаетесь на обработку персональных данных<br>
+                
+                <button type="submit" class="submit-registration" name="button-registration">Зарегистрироваться</button>
+            </div>
+        </form>
+    </body>
+</html>
